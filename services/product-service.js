@@ -32,7 +32,7 @@ module.exports = class ProductService {
                 return reject(new Error('You provided invalid number value'));
             }
 
-            if (number < 1) {
+            if (id < 1) {
                 return reject(new Error('An ID can\'t be a negative value'));
             }
 
